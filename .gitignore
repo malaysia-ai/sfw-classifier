@@ -1,0 +1,9 @@
+for elissa
+.ipynb_checkpoints
+output
+*/
+*.jsonl
+*.jsonl.1
+*.bin
+*.json
+*.pkl
