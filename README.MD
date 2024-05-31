@@ -22,7 +22,7 @@ Developing a safe for work classifier involves an extensive amount of data minin
     - compute centroid of the embedding (average of all the embeddings)
     - filter out based on threshold (heurestically determine the threshold for filtering based on data distribution)
 
-` We are assuming that sentences whose embeddings are more closer to the centroid, the more they represent the topic``
+``` We are assuming that sentences whose embeddings are more closer to the centroid, the more they are similar in a way```
 
 4. We still don't have enough data, or better yet we have too much of it.
 
