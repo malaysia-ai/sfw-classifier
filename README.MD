@@ -60,7 +60,7 @@ Developing a safe for work classifier involves an extensive amount of data minin
 Important Data Files for Reference
 
 - Dataset containing filtered and training dataset for gathering `malaysia-sfw-dataset.jsonl` 
-- result-mixtral, result-mistral, nsfw-inference-mallam.jsonl dataset for labelled data from llm inference
+- Dataset for labelled data from llm inference in inference-data folder `result-mixtral, result-mistral, nsfw-inference-mallam.jsonl` 
 - Dataset of social media data with english and standard malay translation `noisy-translation-combined.jsonl`
 - Scraped nsfw data using keyword and profiles https://huggingface.co/datasets/malaysia-ai/crawl-twitter-nsfw
 
