@@ -22,13 +22,14 @@ Developing a safe for work classifier involves an extensive amount of data minin
     - compute centroid of the embedding (average of all the embeddings)
     - filter out based on threshold (heurestically determine the threshold for filtering based on data distribution)
 
-``` We are assuming that sentences whose embeddings are more closer to the centroid, the more they are similar in a way```
+"We are assuming that sentences whose embeddings are closer to the centroid are more similar in a way."
 
 4. We still don't have enough data, or better yet we have too much of it.
 
-5. For hate/harassment data (we have too much)
+5. 
+   - For hate/harassment data (we have too much)
     - filter only negative sentiment data 
-   For safe for work data
+   - For safe for work data
     - filter only positive and neutral text 
 
 6. For other labels, not enough labels
@@ -84,7 +85,7 @@ model = MistralForSequenceClassification.from_pretrained('malaysia-ai/malaysian-
 
 ## Acknowledgment
 
-Thank you to all malaysia-ai volunteers for helping scrape the data and contributed to help finish this project :)
+Thank you to all malaysia-ai volunteers for helping to scrape and mining the data to help finish this project :)
 
 
 
