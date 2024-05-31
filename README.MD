@@ -5,6 +5,9 @@ This repository contains code for training a Safe for Work (SFW) classifier on M
 
 Finetuned https://huggingface.co/mesolitica/malaysian-mistral-191M-MLM-512 with Malaysian NSFW data.
 
+
+Labels: 'racist', 'religion insult','psychiatric or mental illness', 'sexist','hate','porn','safe for work', 'self-harm'
+
 Refer status:
 - https://github.com/orgs/malaysia-ai/projects/6
 
